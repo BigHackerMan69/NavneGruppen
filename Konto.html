@@ -2,7 +2,7 @@
 <html>
     <head>
             <title>Navnegruppen</title>
-            <link rel="stylesheet" href="MainPage.css">
+            <link rel="stylesheet" href="Konto.css">
     </head>
     <body>
         <div class="topnav" id="myTopnav">
@@ -14,9 +14,13 @@
             <a href="Settings.html">Settings</a>
                 <i class="fa fa-bars"></i>
         </div>
-            <h1>Velkommen til Navnegruppen</h1>
-            <br>
-            <br>
-            <p>Dette er stedet du finder alle de bedste navne til dit nye barn</p>
+
+        <form action="/action_page.php">
+            <label for="uName">Username</label>
+            <input type="text" id="uName" name="uName"><br><br>
+            <label for="pWord">Password</label>
+            <input type="text" id="pWord" name="pWord"><br><br>
+            <input type="submit" value="Submit">
+        </form>
     </body>
 </html>
